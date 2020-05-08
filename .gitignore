@@ -1,0 +1,61 @@
+# C++ objects and libs
+*.slo
+*.lo
+*.o
+*.a
+*.la
+*.lai
+*.so
+*.so.*
+*.dll
+*.dylib
+*.sdf
+*.tlog
+*.log
+*.pdb
+*.obj
+*.ilk
+*.lastbuildstate
+
+# Qt-es
+/.qmake.cache
+/.qmake.stash
+*.pro.user
+*.pro.user.*
+*.moc
+moc_*.cpp
+qrc_*.cpp
+ui_*.h
+Makefile*
+*-build-*
+build-*
+
+# QtCreator
+*.autosave
+
+# QtCtreator Qml
+*.qmlproject.user
+*.qmlproject.user.*
+
+# CMake
+/build
+CMakeCache.txt
+CMakeFiles
+CMakeScripts
+CMakeLists.txt.user
+Testing
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+
+# gimp
+*.xcf
+
+# Project
+/ipch
+/DicomWorklist/x64/Debug
+/DicomWorklist/x64/Release
+/DicomWorklist/Debug
+/DicomWorklist/Release

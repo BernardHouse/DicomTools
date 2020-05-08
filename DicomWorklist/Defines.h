@@ -1,0 +1,30 @@
+#pragma once
+
+#include "..\..\DicomCommon\EDAPdicom.h"
+#include "..\..\DicomCommon\CommonDefines.h"
+
+// common
+#define EDAP_APP_VERSION               "1.00"
+#define EDAP_BUILD_MODE                "server" // either "workstation" or "server"
+#define EDAP_REGISTRY_KEY_ORGANISATION "Edap-Tms"
+#define EDAP_REGISTRY_KEY_WORKLISTSCP  "DicomWorklitSCP"
+#define EDAP_REGISTRY_KEY_WORKSTATION  "DicomWorkstation"
+#define DICOMdirectory					"C:/DicomWorklistSCP/"
+#define DICOMsqliteFile					"C:/DicomWorklistSCP/DICOM_BWLSCP.sqlite"
+
+#define tblSpecificCharacterSet				"SpecificCharacterSet"
+#define tblScheduledStationAETitle			"ScheduledStationAETitle"
+#define tblModality				 			"Modality"
+#define tblScheduledPerformingPhysicianName	"ScheduledPerformingPhysicianName"
+#define tblScheduledStationName				"ScheduledStationName"
+#define tblScheduledProcedureStepLocation	"ScheduledProcedureStepLocation"
+#define tblPreMedication					"PreMedication"					
+#define tblRequestedContrastAgent			"RequestedContrastAgent"
+#define tblRequestedProcedureDescription	"RequestedProcedureDescription"	
+#define tblPatientTransportArrangements		"PatientTransportArrangements"
+#define tblAccessionNumber					"AccessionNumber"
+#define tblRequestingPhysician				"RequestingPhysician"
+#define tblReferringPhysicianName			"ReferringPhysicianName"
+#define tblCurrentPatientLocation			"CurrentPatientLocation"
+#define tblMedicalAlerts					"MedicalAlerts"					
+#define tblContrastAllergies				"ContrastAllergies"

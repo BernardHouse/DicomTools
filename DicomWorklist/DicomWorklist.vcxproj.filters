@@ -1,0 +1,292 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;cxx;c;def</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{4c982705-857e-4ba8-a899-f86818429962}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{2608b3fd-a5a3-40c1-8f92-d84877f49816}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Source Files\CommonUtil">
+      <UniqueIdentifier>{9400e2c2-7004-47c2-9820-691d95ef88d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Util">
+      <UniqueIdentifier>{3e2074a5-f127-496d-b10e-085c315f270a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CommonSqlite">
+      <UniqueIdentifier>{d9ec6f1c-4b7e-4c8b-8e86-1b2019ecef3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Sqlite">
+      <UniqueIdentifier>{ea22d4f7-e08c-459d-81af-0e64c62aa609}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CommonDatatype">
+      <UniqueIdentifier>{ece3995b-5a5a-4b87-9e33-891b4790c4db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CommonModel">
+      <UniqueIdentifier>{7855f3c7-fc98-4380-824b-66e5a08a2d16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Net">
+      <UniqueIdentifier>{cdeac20c-df55-42df-b14f-f60cdc660481}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Net\Server">
+      <UniqueIdentifier>{d1c0005d-d3d2-4492-9814-a964cdfb0ddf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Model">
+      <UniqueIdentifier>{5ac2a504-5680-4c02-bcf6-ace5894b081a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DicomWorklist.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_DicomWorklist.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_DicomWorklist.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_DicomWorklist.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WorklistSCPView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_WorklistSCPView.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_WorklistSCPView.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="LogView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_LogView.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_LogView.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="AboutView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_AboutView.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_AboutView.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="ConfigureView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ConfigureView.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ConfigureView.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\DicomCommon\Util\Logger.cpp">
+      <Filter>Source Files\CommonUtil</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\SettingsManager.cpp">
+      <Filter>Source Files\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_SettingsManager.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_SettingsManager.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="SqLite\AppSqliteDatabase.cpp">
+      <Filter>Source Files\Sqlite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\DicomCommon\SqLite\SqliteDatabase.cpp">
+      <Filter>Source Files\CommonSqlite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\DicomCommon\Model\BasicWorklistQueryModel.cpp">
+      <Filter>Source Files\CommonModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\DicomCommon\Datatype\DICOMDataset.cpp">
+      <Filter>Source Files\CommonDatatype</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\DicomCommon\Model\AbstractQueryModel.cpp">
+      <Filter>Source Files\CommonModel</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_AbstractQueryModel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_AbstractQueryModel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="WorklistEnrDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_WorklistEnrDlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_WorklistEnrDlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\DicomCommon\Net\Server\BasicWorklistManagementSCPbasedFileSet.cpp">
+      <Filter>Net\Server</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_BasicWorklistManagementSCPbasedFileSet.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_BasicWorklistManagementSCPbasedFileSet.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\DicomCommon\Model\LocalWLServerModel.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_LocalWLServerModel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_LocalWLServerModel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="QWLSqlTableModel.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="DicomWorklist.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DicomWorklist.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DicomWorklist.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="WorklistSCPView.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="WorklistSCPView.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="LogView.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="LogView.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="AboutView.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="AboutView.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ConfigureView.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ConfigureView.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Util\SettingsManager.h">
+      <Filter>Source Files\Util</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\DicomCommon\Model\AbstractQueryModel.h">
+      <Filter>Source Files\CommonModel</Filter>
+    </CustomBuild>
+    <CustomBuild Include="WorklistEnrDlg.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="WorklistEnrDlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\DicomCommon\Net\Server\BasicWorklistManagementSCPbasedFileSet.h">
+      <Filter>Net\Server</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\DicomCommon\Model\LocalWLServerModel.h">
+      <Filter>Model</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GeneratedFiles\ui_DicomWorklist.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\DicomCommon\EDAPdicom.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_WorklistSCPView.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_LogView.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_AboutView.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_ConfigureView.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\DicomCommon\Util\Logger.h">
+      <Filter>Source Files\CommonUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="Defines.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SqLite\AppSqliteDatabase.h">
+      <Filter>Source Files\Sqlite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\DicomCommon\SqLite\SqliteDatabase.h">
+      <Filter>Source Files\CommonSqlite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\DicomCommon\Model\BasicWorklistQueryModel.h">
+      <Filter>Source Files\CommonModel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\DicomCommon\Datatype\DICOMDataset.h">
+      <Filter>Source Files\CommonDatatype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\DicomCommon\CommonDefines.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_WorklistEnrDlg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\DicomCommon\Util\Tools.h">
+      <Filter>Source Files\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="QWLSqlTableModel.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="DicomWorklist.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DicomWorklist.ico" />
+  </ItemGroup>
+</Project>

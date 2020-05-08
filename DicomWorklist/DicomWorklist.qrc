@@ -1,0 +1,18 @@
+<RCC>
+    <qresource prefix="/DicomWorklist">
+        <file>Resources/png/Actions-dialog-close-icon.png</file>
+        <file>Resources/png/Actions-list-add-user-icon.png</file>
+        <file>Resources/png/Actions-list-remove-user-icon.png</file>
+        <file>Resources/png/Cute-Ball-Go-icon.png</file>
+        <file>Resources/png/accessories-text-editor.png</file>
+        <file>Resources/png/help-browser.png</file>
+        <file>Resources/png/image_data_view.png</file>
+        <file>Resources/png/image_view.png</file>
+        <file>Resources/png/invert.png</file>
+        <file>Resources/png/network-server.png</file>
+        <file>Resources/png/preferences-system.png</file>
+        <file>Resources/png/system-search.png</file>
+        <file>Resources/png/view-refresh.png</file>
+        <file>Resources/jpg/EDAPTMS_RVB_200dpi.jpg</file>
+    </qresource>
+</RCC>
